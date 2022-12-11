@@ -126,7 +126,6 @@ st.write("Your age: ",age)
 
 
 ss = pd.DataFrame({
-    "sm_li":np.where(s["web1h"] == 1, 1, 0),
     "income":np.where(s["income"]> 9,np.nan,s["income"]),
     "education":np.where(s["educ2"]> 8,np.nan,s["educ2"]),
     "parent":np.where(s["par"] == 1,1,0),
