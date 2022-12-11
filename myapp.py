@@ -2,7 +2,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from PIL import Image
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
@@ -13,8 +12,6 @@ import pandas as pd
 #### App Visuals
 st.title("Are you a LinkedIn User?")
 
-image = Image.open("C:/Users/Esmerina/OneDrive/Desktop/linkedinusers.jpg")
-st.image(image, caption='Image sources from Google')
 
 
 
