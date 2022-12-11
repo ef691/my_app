@@ -122,7 +122,7 @@ st.write("Your age: ",age)
 
 #Jupyter CODE
 #### Import Data
-s = pd.read_csv("C:/Users/Esmerina/Downloads/social_media_usage.csv")
+s = pd.read_csv("social_media_usage.csv")
 
 
 ss = pd.DataFrame({
