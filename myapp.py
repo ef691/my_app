@@ -122,7 +122,7 @@ st.write("Your age: ",age)
 
 #Jupyter CODE
 #### Import Data
-("https://github.com/ef691/my_app/blob/main/social_media_usage.csv")
+
 
 
 ss = pd.DataFrame({
